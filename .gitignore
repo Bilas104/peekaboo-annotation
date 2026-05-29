@@ -1,0 +1,31 @@
+# Environments
+.env
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data & Logs
+data/images/*
+data/output/*.json
+data/output/*.csv
+!data/images/.gitkeep
+logs/
+
+# Model Checkpoints
+checkpoints*/
+*.safetensors
+*.bin
+*.pt
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
